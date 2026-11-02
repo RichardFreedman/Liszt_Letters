@@ -1,0 +1,11 @@
+File name,Source image,Item no. on page,Document type,Sender,Recipient,Place,Date (YYYY-MM-DD),Date source,Title,Language,Word count (body),Reviewed,Model,Processed at,Notes
+GSA_59_66_pages_19_-_28_page_19_r01.md,GSA_59_66_pages_19_-_28_page_19.pdf,1,envelope,,Gottschalg,Tiefurt,,absent,"Envelope addressed to Herrn Gottschalg, Tiefurt",German,8,no,claude-opus-5-5,2026-11-02,flagged for review
+GSA_59_66_pages_19_-_28_page_20_r01.md,GSA_59_66_pages_19_-_28_page_20.pdf,1,envelope,,,,,absent,"Envelope, back",,14,no,claude-opus-5-5,2026-11-02,flagged for review
+GSA_59_66_pages_19_-_28_page_21_r01.md,GSA_59_66_pages_19_-_28_page_21.pdf,1,letter,,,,,absent,"Letter, page 1",German,72,no,claude-opus-5-5,2026-11-02,flagged for review
+GSA_59_66_pages_19_-_28_page_22_r01.md,GSA_59_66_pages_19_-_28_page_22.pdf,1,letter,,,,,absent,"Letter, continuation page",German,90,no,claude-opus-5-5,2026-11-02,flagged for review
+GSA_59_66_pages_19_-_28_page_23_r01.md,GSA_59_66_pages_19_-_28_page_23.pdf,1,letter,,,,,absent,"Letter, continuation page",German,120,no,claude-opus-5-5,2026-11-02,flagged for review
+GSA_59_66_pages_19_-_28_page_24_r01.md,GSA_59_66_pages_19_-_28_page_24.pdf,1,letter,,,,,absent,"Letter, continuation page",German,200,no,claude-opus-5-5,2026-11-02,flagged for review
+GSA_59_66_pages_19_-_28_page_25_r01.md,GSA_59_66_pages_19_-_28_page_25.pdf,1,letter,,,,,absent,"Letter, continuation page",German,105,no,claude-opus-5-5,2026-11-02,flagged for review
+GSA_59_66_pages_19_-_28_page_26_r01.md,GSA_59_66_pages_19_-_28_page_26.pdf,1,letter,,,,,absent,"Letter, continuation page",German,103,no,claude-opus-5-5,2026-11-02,flagged for review
+GSA_59_66_pages_19_-_28_page_27_r01.md,GSA_59_66_pages_19_-_28_page_27.pdf,1,letter,F. Liszt,,Rom,,written,"Letter from F. Liszt, Rom, closing page with postscript",German,88,no,claude-opus-5-5,2026-11-02,flagged for review
+GSA_59_66_pages_19_-_28_page_28_r01.md,GSA_59_66_pages_19_-_28_page_28.pdf,1,other,,,,,absent,Blank page,,0,no,claude-opus-5-5,2026-11-02,

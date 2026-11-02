@@ -1,0 +1,38 @@
+# Requirements for the archival transcription / Chroma / RAG pipeline
+# (1_Transcription, 2_Chroma_DB_Builder, 3_RAG_Query)
+#
+# Python 3.11 or 3.12 recommended. To set up a local virtual environment:
+#
+#   cd "path/to/this/folder"
+#   python3 -m venv .venv
+#   source .venv/bin/activate            (Windows: .venv\Scripts\activate)
+#   pip install -r requirements.txt
+#   python -m ipykernel install --user --name archival-rag --display-name "Archival RAG"
+#
+# Then open the notebooks in Jupyter or VS Code and choose the "Archival RAG" kernel.
+# Versions below are the combination this pipeline was tested with.
+
+# --- Claude API (transcription and question answering) ---
+anthropic==1.10.0
+
+# --- Embeddings (EMBEDDING_PROVIDER=voyage in pipeline.env) ---
+voyageai==0.5.0
+
+# --- Vector database ---
+chromadb==1.5.9
+
+# --- Image preparation: rotation, resizing, TIFF and PDF pages ---
+pillow==12.3.0
+pymupdf==1.28.2
+
+# --- Settings, YAML front matter, tables ---
+python-dotenv==1.2.3
+PyYAML==6.0.3
+pandas==3.0.6
+
+# --- Jupyter kernel ---
+ipykernel==7.4.0
+
+# --- Optional: free local embeddings instead of Voyage ---
+# Only needed if pipeline.env says EMBEDDING_PROVIDER=local (large download: installs PyTorch).
+# sentence-transformers

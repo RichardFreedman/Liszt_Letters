@@ -179,3 +179,17 @@ cython_debug/
 #  refer to https://docs.cursor.com/context/ignore-files
 .cursorignore
 .cursorindexingignore
+
+# --- Liszt_Letters project ---
+# Local Python environments (conda/venv), wherever they live
+.conda/
+.venv/
+
+# Settings file with API keys; pipeline.env.example is the shared template
+pipeline.env
+
+# Generated Chroma vector database (rebuilt by 2_Chroma_DB_Builder)
+chroma-db/
+
+# macOS Finder metadata
+.DS_Store
